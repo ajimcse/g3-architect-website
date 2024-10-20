@@ -117,11 +117,48 @@ color: #FF900E;
 
 
 
+/* section==================================================== */
 
 
 
+#features-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+  
+}
+
+.features-you-section{
+  display: flex;
+  gap: 20px;
+  padding-top: 100px;
+  
+}
+.features-you-titles > div{
+  width: 600px;
+}
+.img-container img{
+  width: 100%;
+
+  
+ 
+}
+.love{
+  
+  box-shadow: 10px 10px 10px 10px rgba(146, 136, 136, 0.1);
+
+  padding-bottom: 60px;
+}
 
 
+
+#prymary-btn{
+ padding: 38px 34px;
+ font-size: 1.25rem;
+ font-weight: 500;
+ margin-left: -100px;
+ margin-top: -100px;
+
+}
 
 /* ======================================= */
 
@@ -219,6 +256,16 @@ gap: 90px;
   }
   .soma-head-title{
     text-align: center;
+  }
+  .features-you-section{
+    flex-direction: column;
+  }
+  #prymary-btn{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .features-you-titles{
+    width: 100%;
   }
  
   
